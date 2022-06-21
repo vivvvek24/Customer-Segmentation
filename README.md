@@ -1,7 +1,9 @@
 # Customer-Segmentation
+**AlmaBetter Verified Project**
 
 ![Top-Customer-Segmentation-Examples-every-Marketer-Needs-to-Know](https://user-images.githubusercontent.com/100477239/173241457-b8978b91-2313-49d0-bd69-ec27a3f9972c.png)
 
+# **Problem Statement:**
 Online Retail Customer Segmentation Online-Retail-Customer-Segmentation In this project, your task is to identify major customer segments on a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
 
 ## **The need of customer segmentation:**
@@ -16,23 +18,62 @@ The RFM model is quite useful model in retail customer segmentation where only t
 
 Recency – How recently did the customer purchase? Frequency – How often do they purchase? Monetary Value – How much do they spend? A combination of these three attributes can be defined to assign a quantitative value to customers. e.g. A customer who recently bought high value products and transacts regularly is a high value customer.
 
-## **Segmentation with K-means clustering:**
+## 📖 **Segmentation with K-means clustering:**
 
 Initially, the data is subject to important stages in an analytics pipeline: exploratory analysis, preprocessing, feature engineering and standardizaton. Then, the unsupervised classification technique, K-means clustering algorithm, is used to determine the ideal segments of customers. Silhouette analysis and related cluster visualizations are leveraged to deduce the optimum value of "K" (number of clusters) in the algorithm. The observations from the results are elaborately discussed before reaching the conclusion from the business perspective.
 
-## **Conclusion**
+## 💾 **Project Files Description:**
 
-K-Means Clustering with Silhouette gives the highest score of 0.39 for number of clusters 2.
+This Project includes 1 colab notebook and 1 presentation Pdf.
 
-Sales has been increased from 2010 to 2011.
+### **Executable Files:**
 
-The business can focus on these different clusters and provide to customers of each sector in a different way, which would not only benefit the customer but also the business at large.
+[Online_Retail_Customer_Segmentation](https://github.com/vivvvek24/Customer-Segmentation/blob/main/Copy_of_Online_Retail_Customer_Segmentation_Capstone_Project.ipynb) - Includes all Exploratory Data Analysis and all functions required for Clustering operations.
 
-## **Credits**
+[customer segmentation ppt.pdf](https://github.com/vivvvek24/Customer-Segmentation/blob/main/customer%20segmentation%20ppt.pdf) - Includes pdf of presentation of the project.
 
-Soni Rani | Data Scientist | Machine Learning Enthusiast
+### **Output:**
 
-## **References**
+[Google Colab](https://github.com/vivvvek24/Customer-Segmentation/blob/main/Copy_of_Online_Retail_Customer_Segmentation_Capstone_Project.ipynb) - All the outputs are visible in the provided colab notebook.
+
+
+## 📋 **Execution Instruction:**
+
+The order of execution of the colab notebook is as follows:
+
+**1) Online_Retail_Customer_Segmentation_Capstone_Project.ipynb**
+
+First, click on the open in colab button present on the top center of the notebook.
+
+In this .ipynb file, we have -
+
+• EDA on online retail customer segmentation.
+
+• RFM Analysis.
+
+• Clustering Analysis.
+
+**2) Kaggle Dataset**
+
+Downlaod the dataset from kaggle through provided link.Then, connect to the runtime and execute the cell to mount the drive or upload the data file to the current runtime.
+
+**3) Cell Path**
+
+Finally, delete the path in the dataset loading cell and replace it with the path of your current data file. Run each cell to see the output below it.
+
+## **Conclusions**
+
+• K-Means Clustering with Silhouette gives the highest score of 0.39 for number of clusters 2.
+
+• Sales has been increased from 2010 to 2011.
+
+• The business can focus on these different clusters and provide to customers of each sector in a different way, which would not only benefit the customer but also the business at large.
+
+## 📜 **Credits**
+
+Vivek Kumar | Soni Rani | Suraj Singh
+
+## 📚 **References**
 1. RFM Analysis - https://clevertap.com/blog/rfm-analysis/
 2. K-Means Clustering - https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html
 3. Elbow Method - https://www.scikit-yb.org/en/latest/api/cluster/elbow.html
